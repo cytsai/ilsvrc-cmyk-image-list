@@ -1,6 +1,6 @@
 # List of CMYK Images in ImageNet Dataset
 
-CMYK JPEG files sometimes screw up image loaders (e.g. MATLAB imread), and for the ImageNet dataset, it takes long time to sort out these CMYK files.
+CMYK JPEG files sometimes screw up image loaders (e.g. MATLAB imread), and for the ImageNet CLS-LOC dataset, it takes long time to sort out these CMYK files.
 To this end, we list all known CMYK JPEG files as follows:
 
 Training Set
@@ -29,7 +29,4 @@ n07583066_647.JPEG
 n13037406_4650.JPEG
 ```
 
-Validation Set
-```
-ILSVRC2012_val_00019877.JPEG
-```
+Worth to note too, <code>n02105855_2933.JPEG</code> is actually a PNG file, which may crash the image loader as well, if not configured generically enough.
