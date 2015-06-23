@@ -3,7 +3,6 @@
 CMYK JPEG files sometimes screw up image loaders (e.g. MATLAB imread), and for the ImageNet CLS-LOC dataset, it takes long time to sort out these CMYK files.
 To this end, we list all known CMYK JPEG files as follows:
 
-Training Set
 ```
 n01739381_1309.JPEG
 n02077923_14822.JPEG
@@ -29,4 +28,4 @@ n07583066_647.JPEG
 n13037406_4650.JPEG
 ```
 
-Worth to note too, <code>n02105855_2933.JPEG</code> is actually a PNG file, which may crash the image loader as well, if not configured generically enough.
+Also, <code>n02105855_2933.JPEG</code> is actually a PNG file, which may crash the image loader as well if not configured generic enough.
