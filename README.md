@@ -1,6 +1,6 @@
-# List of CMYK Images in ImageNet Dataset
+# List of CMYK Images in ILSVRC Training Set
 
-CMYK JPEG files sometimes screw up image loaders (e.g. MATLAB imread), and for the ImageNet CLS-LOC dataset, it takes long time to sort out these CMYK files.
+CMYK JPEG files sometimes screw up image loaders (e.g. MATLAB imread), and for the ILSVRC CLS-LOC training set, it takes long time to sort out these CMYK files.
 To this end, we list all known CMYK JPEG files as follows:
 
 ```
